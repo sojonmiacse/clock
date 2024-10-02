@@ -9,26 +9,24 @@
 </head>
 
 <body>
+     <div class="clock-container">
+          <img src="sojon.jpg" alt="">
+          <!-- Digital Time and Date Display -->
+          <div class="digital-time">
+               <span id="time-display"></span>
+               <span id="am-pm"></span>
+               <br>
+               <span id="date-display"></span>
+          </div>
+     </div>
 
-     <div id="container">
-          <div class="clock-container">
-               <!-- Digital Time and Date Display -->
-               <div class="digital-time">
-                    <span id="time-display"></span>
-                    <span id="am-pm"></span>
-                    <br>
-                    <span id="date-display"></span>
-               </div>
-          </div>
-     
-          <!-- Night Mode Switch -->
-          <div class="backlight-toggle">
-               <label for="night-mode-switch">Night Mode:</label>
-               <label class="switch">
-                    <input type="checkbox" id="night-mode-switch">
-                    <span class="slider"></span>
-               </label>
-          </div>
+     <!-- Night Mode Switch -->
+     <div class="backlight-toggle">
+          <label for="night-mode-switch">Night Mode:</label>
+          <label class="switch">
+               <input type="checkbox" id="night-mode-switch">
+               <span class="slider"></span>
+          </label>
      </div>
 
      <audio id="chime-sound" src="clock.mp3"></audio>

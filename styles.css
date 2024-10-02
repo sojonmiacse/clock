@@ -6,23 +6,24 @@
 
 body {
      font-family: Arial, sans-serif;
-     background-color: #f0f0f0;
-     transition: background-color 0.5s ease;
-}
-
-#container{
+     text-align: center;
      height: 100vh;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     background-color: #f0f0f0;
+     transition: background-color 0.5s ease;
 }
-.clock-container {
-     text-align: center;
+.clock-container img{
+     width: 80px;
+     height: 80px;
+     border-radius: 50px;
+     margin-bottom: 20px;
 }
-
 .digital-time {
-     font-size: 3rem;
+     font-size: 2rem;
+     font-weight: bold;
      margin: 20px;
 }
 
@@ -32,8 +33,10 @@ body {
      align-items: center;
      gap: 10px;
 }
-.backlight-toggle label{
-     font-size: 30px;
+
+.backlight-toggle label,
+h1 {
+     font-size: 25px;
      font-weight: bold;
 }
 
